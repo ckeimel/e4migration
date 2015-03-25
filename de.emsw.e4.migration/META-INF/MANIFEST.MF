@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: e4 Migration Test App
+Bundle-SymbolicName: de.emsw.e4.migration;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: de.emsw.e4.migration.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.swt,
+ org.eclipse.jface,
+ org.eclipse.e4.core.contexts,
+ org.eclipse.e4.core.di,
+ org.eclipse.e4.core.services,
+ org.eclipse.e4.ui.workbench,
+ org.eclipse.e4.ui.model.workbench,
+ javax.inject,
+ org.eclipse.e4.ui.services
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: javax.annotation;version="1.1.0",
+ javax.inject;version="1.0.0"
+Bundle-ActivationPolicy: lazy

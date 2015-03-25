@@ -1,0 +1,17 @@
+.MTrimmedWindow {  
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.MPartStack {
+  swt-selected-tabs-background: #FFFFFF #F0F0F0 100%;
+  swt-simple: false;
+  swt-mru-visible: true;
+  font-size: 9;
+}
+
+.MPartStack.active {
+  swt-selected-tabs-background: #F2F5F9 #99B4D1	 100%;
+}
