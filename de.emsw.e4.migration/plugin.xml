@@ -5,15 +5,11 @@
          id="product"
          point="org.eclipse.core.runtime.products">
       <product
-            application="org.eclipse.e4.ui.workbench.swt.E4Application"
+            application="org.eclipse.fx.ui.workbench.fx.application"
             name="e4 Migration Test App">
          <property
                name="appName"
                value="e4 Migration Test App">
-         </property>
-         <property
-               name="applicationCSS"
-               value="platform:/plugin/de.emsw.e4.migration/css/default.css">
          </property>
          <property
                name="lifeCycleURI"
