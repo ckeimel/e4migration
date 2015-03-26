@@ -7,6 +7,7 @@
     <mainMenu xmi:id="_kzslkGdLEeCwy-Dv6QH0PA" elementId="de.emsw.e4.migration.menu.main">
       <children xsi:type="menu:Menu" xmi:id="_l-QUMGdLEeCwy-Dv6QH0PA" elementId="de.emsw.e4.migration.menu.file" label="&amp;File" mnemonics="">
         <children xsi:type="menu:HandledMenuItem" xmi:id="_UKiVENLVEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.handledmenuitem.message" label="Message" mnemonics="" command="_8iY0gNLTEeSTQcfhQVYxwA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_6lMsANO4EeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.handledmenuitem.dialog" label="Dialog" command="_1lLHsNO4EeSTQcfhQVYxwA"/>
         <children xsi:type="menu:MenuSeparator" xmi:id="_U_QWkNLVEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.menuseparator.0"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_vDrnoGdLEeCwy-Dv6QH0PA" elementId="de.emsw.e4.migration.handledmenuitem.exit" label="Exit" mnemonics="" command="_nFWfIGdLEeCwy-Dv6QH0PA"/>
       </children>
@@ -16,11 +17,13 @@
         <children xsi:type="menu:HandledToolItem" xmi:id="_sFUsMH_NEeCi9-BzTbmupw" elementId="de.emsw.e4.migration.handledtoolitem.exit" label="Exit" command="_nFWfIGdLEeCwy-Dv6QH0PA"/>
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_a1JL4NLVEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.toolbarseparator.0"/>
         <children xsi:type="menu:HandledToolItem" xmi:id="_bNVCYNLVEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.handledtoolitem.message" label="Message" command="_8iY0gNLTEeSTQcfhQVYxwA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="__MlG0NO4EeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.handledtoolitem.dialog" label="Dialog" command="_1lLHsNO4EeSTQcfhQVYxwA"/>
       </children>
     </trimBars>
   </children>
   <handlers xmi:id="_ou-IUGdLEeCwy-Dv6QH0PA" elementId="de.emsw.e4.migration.handler.exit" contributionURI="bundleclass://de.emsw.e4.migration/de.emsw.e4.migration.handler.ExitHandler" command="_nFWfIGdLEeCwy-Dv6QH0PA"/>
   <handlers xmi:id="_-aOf4NLTEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.handler.message" contributionURI="bundleclass://de.emsw.e4.migration/de.emsw.e4.migration.handler.MessageHandler" command="_8iY0gNLTEeSTQcfhQVYxwA"/>
+  <handlers xmi:id="_3F0bENO4EeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.handler.dialog" contributionURI="bundleclass://de.emsw.e4.migration/de.emsw.e4.migration.handler.DialogHandler" command="_1lLHsNO4EeSTQcfhQVYxwA"/>
   <bindingTables xmi:id="_kON_4NIsEeSsgIesCaJPmw" elementId="de.emsw.e4.migration.bindingtable.main" bindingContext="_rUuIgNIsEeSsgIesCaJPmw"/>
   <rootContext xmi:id="_rUuIgNIsEeSsgIesCaJPmw" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="Windows and Dialogs">
     <children xmi:id="_rUuIgdIsEeSsgIesCaJPmw" elementId="org.eclipse.ui.contexts.window" name="Windows"/>
@@ -28,6 +31,7 @@
   </rootContext>
   <commands xmi:id="_nFWfIGdLEeCwy-Dv6QH0PA" elementId="de.emsw.e4.migration.command.exit" commandName="Exit"/>
   <commands xmi:id="_8iY0gNLTEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.command.message" commandName="Message"/>
+  <commands xmi:id="_1lLHsNO4EeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.command.dialog" commandName="Dialog"/>
   <addons xmi:id="_-eCoJFk6EeCKVNZqayYw8w" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_-eCoJVk6EeCKVNZqayYw8w" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_-eCoJlk6EeCKVNZqayYw8w" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
