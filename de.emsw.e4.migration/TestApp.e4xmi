@@ -14,6 +14,7 @@
     </mainMenu>
     <trimBars xmi:id="_lBVFAH_NEeCi9-BzTbmupw" elementId="de.emsw.e4.migration.trimbar.top">
       <children xsi:type="menu:ToolBar" xmi:id="_rBuhMH_NEeCi9-BzTbmupw" elementId="de.emsw.e4.migration.toolbar.top">
+        <tags>fillspace</tags>
         <children xsi:type="menu:HandledToolItem" xmi:id="_sFUsMH_NEeCi9-BzTbmupw" elementId="de.emsw.e4.migration.handledtoolitem.exit" label="Exit" command="_nFWfIGdLEeCwy-Dv6QH0PA"/>
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_a1JL4NLVEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.toolbarseparator.0"/>
         <children xsi:type="menu:HandledToolItem" xmi:id="_bNVCYNLVEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.handledtoolitem.message" label="Message" command="_8iY0gNLTEeSTQcfhQVYxwA"/>
