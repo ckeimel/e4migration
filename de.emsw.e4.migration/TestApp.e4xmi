@@ -39,4 +39,5 @@
   <addons xmi:id="_-eCoKFk6EeCKVNZqayYw8w" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
   <addons xmi:id="_MkiIIOk8EeKIpMnkiu8aUQ" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_-eCoKVk6EeCKVNZqayYw8w" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_nmHfsNRkEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.addon.maximize" contributionURI="bundleclass://de.emsw.e4.migration/de.emsw.e4.migration.addon.MaximizeAddon"/>
 </application:Application>
