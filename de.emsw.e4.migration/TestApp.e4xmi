@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_YRCOIWRJEeC1NfbFkmhD5Q" elementId="de.emsw.gosa.product.test.application">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_jCgMoGRJEeC1NfbFkmhD5Q" elementId="de.emsw.e4.migration.trimmedwindow.main" label="GOSA Test Window" iconURI="platform:/plugin/de.emsw.e4.migration/icons/app/em.png" width="600" height="400">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_jCgMoGRJEeC1NfbFkmhD5Q" elementId="de.emsw.e4.migration.trimmedwindow.main" label="Test Window" iconURI="platform:/plugin/de.emsw.e4.migration/icons/app/em.png" width="600" height="400">
     <children xsi:type="basic:PartStack" xmi:id="_vrd10GdKEeCwy-Dv6QH0PA" elementId="de.emsw.e4.migration.partstack.main">
-      <children xsi:type="basic:Part" xmi:id="_i2Pb4NLSEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.part.one" contributionURI="bundleclass://de.emsw.e4.migration/de.emsw.e4.migration.part.OnePart" label="One"/>
+      <children xsi:type="basic:Part" xmi:id="_i2Pb4NLSEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.part.one" contributionURI="bundleclass://de.emsw.e4.migration/de.emsw.e4.migration.part.OnePart" label="Part One" iconURI="platform:/plugin/de.emsw.e4.migration/icons/app/em.png"/>
     </children>
     <mainMenu xmi:id="_kzslkGdLEeCwy-Dv6QH0PA" elementId="de.emsw.e4.migration.menu.main">
       <children xsi:type="menu:Menu" xmi:id="_l-QUMGdLEeCwy-Dv6QH0PA" elementId="de.emsw.e4.migration.menu.file" label="&amp;File">
@@ -19,6 +19,9 @@
         <children xsi:type="menu:HandledToolItem" xmi:id="_bNVCYNLVEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.handledtoolitem.message" label="Message" command="_8iY0gNLTEeSTQcfhQVYxwA"/>
         <children xsi:type="menu:HandledToolItem" xmi:id="__MlG0NO4EeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.handledtoolitem.dialog" label="Dialog" command="_1lLHsNO4EeSTQcfhQVYxwA"/>
       </children>
+    </trimBars>
+    <trimBars xmi:id="_Zohl0NSYEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.trimbar.bottom" side="Bottom">
+      <children xsi:type="menu:ToolControl" xmi:id="_Zohl0tSYEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.toolcontrol.status" contributionURI="bundleclass://de.emsw.e4.migration/de.emsw.e4.migration.toolcontrol.StatusBarToolControl"/>
     </trimBars>
   </children>
   <handlers xmi:id="_ou-IUGdLEeCwy-Dv6QH0PA" elementId="de.emsw.e4.migration.handler.exit" contributionURI="bundleclass://de.emsw.e4.migration/de.emsw.e4.migration.handler.ExitHandler" command="_nFWfIGdLEeCwy-Dv6QH0PA"/>
