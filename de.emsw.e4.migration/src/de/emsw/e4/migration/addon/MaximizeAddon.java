@@ -2,13 +2,15 @@ package de.emsw.e4.migration.addon;
 
 import java.util.Arrays;
 
+import javafx.stage.Stage;
+
 import javax.annotation.PostConstruct;
 
 import org.eclipse.core.runtime.Platform;
 import org.eclipse.e4.core.services.events.IEventBroker;
 import org.eclipse.e4.ui.model.application.ui.basic.MWindow;
 import org.eclipse.e4.ui.workbench.UIEvents;
-import org.eclipse.swt.widgets.Shell;
+import org.eclipse.fx.ui.workbench.renderers.base.widget.WWindow;
 import org.osgi.service.event.Event;
 import org.osgi.service.event.EventHandler;
 
@@ -32,10 +34,11 @@ public class MaximizeAddon {
 					return;
 	
 				MWindow windowModel = (MWindow) objElement;
-				Shell theShell = (Shell) windowModel.getWidget();
-				if (theShell == null)
+				WWindow<?> windowImpl = (WWindow<?>) windowModel.getWidget();
+				Stage theStage = (Stage) windowImpl.getWidget();
+				if (theStage == null)
 					return;
-				theShell.setMaximized(true);
+				theStage.setMaximized(true);
 				
 				eventBroker.unsubscribe(this);
 			}
