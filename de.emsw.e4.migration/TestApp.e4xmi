@@ -5,11 +5,11 @@
       <children xsi:type="basic:Part" xmi:id="_i2Pb4NLSEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.part.one" contributionURI="bundleclass://de.emsw.e4.migration/de.emsw.e4.migration.part.OnePart" label="One"/>
     </children>
     <mainMenu xmi:id="_kzslkGdLEeCwy-Dv6QH0PA" elementId="de.emsw.e4.migration.menu.main">
-      <children xsi:type="menu:Menu" xmi:id="_l-QUMGdLEeCwy-Dv6QH0PA" elementId="de.emsw.e4.migration.menu.file" label="&amp;File" mnemonics="">
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_UKiVENLVEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.handledmenuitem.message" label="Message" mnemonics="" command="_8iY0gNLTEeSTQcfhQVYxwA"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_6lMsANO4EeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.handledmenuitem.dialog" label="Dialog" command="_1lLHsNO4EeSTQcfhQVYxwA"/>
+      <children xsi:type="menu:Menu" xmi:id="_l-QUMGdLEeCwy-Dv6QH0PA" elementId="de.emsw.e4.migration.menu.file" label="&amp;File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_UKiVENLVEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.handledmenuitem.message" label="&amp;Message" command="_8iY0gNLTEeSTQcfhQVYxwA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_6lMsANO4EeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.handledmenuitem.dialog" label="&amp;Dialog" command="_1lLHsNO4EeSTQcfhQVYxwA"/>
         <children xsi:type="menu:MenuSeparator" xmi:id="_U_QWkNLVEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.menuseparator.0"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_vDrnoGdLEeCwy-Dv6QH0PA" elementId="de.emsw.e4.migration.handledmenuitem.exit" label="Exit" mnemonics="" command="_nFWfIGdLEeCwy-Dv6QH0PA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_vDrnoGdLEeCwy-Dv6QH0PA" elementId="de.emsw.e4.migration.handledmenuitem.exit" label="&amp;Exit" command="_nFWfIGdLEeCwy-Dv6QH0PA"/>
       </children>
     </mainMenu>
     <trimBars xmi:id="_lBVFAH_NEeCi9-BzTbmupw" elementId="de.emsw.e4.migration.trimbar.top">
