@@ -1,2 +1,2 @@
 # e4migration
-E4AP Migration from the SWT renderer to the JavafFX renderer using SWTonJavaFX
+E4 RCP Migration from the SWT renderer to the e(fx)clipse JavaFX renderer using SWTonJavaFX
