@@ -22,7 +22,10 @@
       </children>
     </trimBars>
     <trimBars xmi:id="_Zohl0NSYEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.trimbar.bottom" side="Bottom">
-      <children xsi:type="menu:ToolControl" xmi:id="_Zohl0tSYEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.toolcontrol.status" contributionURI="bundleclass://de.emsw.e4.migration/de.emsw.e4.migration.toolcontrol.StatusBarToolControl"/>
+      <children xsi:type="menu:ToolControl" xmi:id="_Zohl0tSYEeSTQcfhQVYxwA" elementId="de.emsw.e4.migration.toolcontrol.status" contributionURI="bundleclass://de.emsw.e4.migration/de.emsw.e4.migration.toolcontrol.StatusBarToolControl">
+        <tags>fillspace</tags>
+        <tags>Container:HBox</tags>
+      </children>
     </trimBars>
   </children>
   <handlers xmi:id="_ou-IUGdLEeCwy-Dv6QH0PA" elementId="de.emsw.e4.migration.handler.exit" contributionURI="bundleclass://de.emsw.e4.migration/de.emsw.e4.migration.handler.ExitHandler" command="_nFWfIGdLEeCwy-Dv6QH0PA"/>
